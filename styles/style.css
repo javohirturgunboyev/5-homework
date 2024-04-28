@@ -1,0 +1,59 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    gap: 50px;
+    
+}
+.tooth{
+    padding-right: 307px;
+   
+}
+
+.header select{
+   transition-duration: 3s;
+    background-color:rgb(237, 123, 1);
+    color:rgb(4, 255, 0);
+    cursor: pointer;
+    border-radius:15px
+}
+
+.header select:hover{
+    background-color: black;
+    color: yellow;
+    border-radius: 50px;
+}
+
+.main{
+    background-image: url(./images/div\ 1.png);
+    width:1440px;
+    height: 540px;
+   
+    padding-left: 135px;
+}
+
+.main h1{
+    width: 689px;
+    padding-top: 135px;
+}
+
+.main a button{
+    background-color:green;
+    color: white;
+    align-items: center;
+    border-radius:15px;
+    transition-duration: 3s;
+    
+}
+
+.main a button:hover{
+    cursor: pointer;
+background-color:blue;
+color:white;
+}
