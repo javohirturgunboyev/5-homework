@@ -43,17 +43,95 @@
     padding-top: 135px;
 }
 
+
+
 .main a button{
     background-color:green;
     color: white;
-    align-items: center;
+   text-align: center;
     border-radius:15px;
     transition-duration: 3s;
-    
+    width: 220px;
+    height: 48px;
+
 }
 
 .main a button:hover{
     cursor: pointer;
 background-color:blue;
 color:white;
+}
+
+.images{
+    cursor: pointer;
+    gap: 24px;
+    padding-top: 80px;
+    padding-left: 128px;
+    padding-right: 128px;
+    
+}
+
+
+
+.toothmouth{
+display: flex;
+padding-top: 80px;
+gap:16px;
+padding-left: 128px;
+padding-right: 128px;
+}
+
+.mained{
+    display: flex;
+    background-color:#06a6a4;
+    width: 548px;
+    height: 260px;
+    padding-top: 7px;
+    border-radius: 16px;
+}
+
+.mouthwash{
+    width: Fixed (156px)px;
+    height: Fixed (44px)px;
+    top: 169px;
+    left: 3px;
+    padding: 10px 16px 10px 16px;
+    gap: 8px;
+    border-radius: 16px;
+    opacity: 0px;
+    
+}
+
+
+
+.mouthwash a button{
+background-color:rgb(18, 238, 40);
+color:white;
+transition-duration: 3s;
+}
+
+.mouthwash a button:hover{
+background-color:blue;
+color:white;
+}
+
+.toothbrush{
+    background-image:url(./images/Rectangle\ 18.png);
+    width: 548px;
+    height: 260px;
+    background-color:aqua;
+    padding-top: 7px;
+    padding-left: 18.5px;
+    border-radius:16px;
+}
+
+.toothbrush a button{
+    background-color:rgb(18, 238, 40);
+color:white;
+transition-duration: 3s;
+}
+
+.toothbrush a button:hover{
+    background-color:blue;
+    color:white;  
 }
