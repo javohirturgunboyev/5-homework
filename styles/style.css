@@ -4,11 +4,15 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .header{
     display: flex;
     gap: 50px;
+    position: fixed;
+    z-index: 10;
+    
     
 }
 .tooth{
@@ -135,3 +139,18 @@ transition-duration: 3s;
     background-color:blue;
     color:white;  
 }
+
+.Trending{
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.natural a{
+color:black;
+}
+
+.natural a two{
+color:red;
+}
+
