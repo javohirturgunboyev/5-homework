@@ -72,7 +72,17 @@ color:white;
     padding-top: 80px;
     padding-left: 128px;
     padding-right: 128px;
-    
+  
+}
+
+.images img{
+    transition: all 3s; 
+}
+
+.images img:hover{
+cursor: pointer;
+transform: scale(120%);
+
 }
 
 
@@ -85,6 +95,8 @@ padding-left: 128px;
 padding-right: 128px;
 }
 
+
+
 .mained{
     display: flex;
     background-color:#06a6a4;
@@ -92,6 +104,14 @@ padding-right: 128px;
     height: 260px;
     padding-top: 7px;
     border-radius: 16px;
+    transition: all 3s;
+
+
+}
+
+.mained:hover{
+    transform: scale(120%);
+    cursor: pointer;
 }
 
 .mouthwash{
@@ -103,8 +123,9 @@ padding-right: 128px;
     gap: 8px;
     border-radius: 16px;
     opacity: 0px;
-    
+  
 }
+
 
 
 
@@ -127,6 +148,12 @@ color:white;
     padding-top: 7px;
     padding-left: 18.5px;
     border-radius:16px;
+    transition: all 3s;
+}
+
+.toothbrush:hover{
+    transform: scale(120%);
+    cursor: pointer;
 }
 
 .toothbrush a button{
@@ -146,11 +173,139 @@ transition-duration: 3s;
 
 }
 
+.cart{
+display: flex;
+gap: 40px;
+
+}
+
+.natural{
+padding-left: 50px;
+transition: all 2s;
+padding-top: 80px;
+}
+
+
+
+.natural:hover{
+transform: rotateZ('angle');
+cursor: pointer;
+transform: scale(120%);
+}
+
 .natural a{
-color:black;
+gap: 3px;
+
+}
+
+
+.natural a one{
+color: black;
 }
 
 .natural a two{
-color:red;
+color:gray;
 }
 
+.natural button{
+border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 246px;
+    height: 44px;
+    background-color:#405741;
+    color:white;
+transition-duration: 3s;
+}
+
+.natural button:hover{
+background-color:blue;
+color:wheat;
+cursor: pointer;
+transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.natural a button img{
+   color:white;
+   width: 20.01px;
+   height: 20px;
+   top: 2px;
+   left: 1px;
+
+
+}
+
+.pure{
+ background-image:url(./images/tooth\ cleaned.png);
+ width: 1440px;
+ height: 540px;
+ padding-left: 135px;
+ margin-top: 120px;
+ 
+}
+
+.pure h1{
+    width: 559px;
+    height: 108px;
+   padding-top: 53px;
+    
+}
+
+.pure button{
+width: 168px;
+height: 44px;
+background-color:#405741;
+border-radius:15px;
+color:white;
+transition: all 3s;
+margin-top: 43px;
+}
+
+
+.pure button:hover{
+background-color:blue;
+color:white;
+cursor: pointer;
+transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.testimonials{
+text-align: center;
+}
+
+.about_people{
+background-color:#e0f8ef;
+
+}
+
+.carts{
+display: flex;
+gap: 16px;
+padding-left: 127.5px;
+padding-top: 80px;
+}
+
+.courtney{
+background-color:white;
+z-index: 2;
+width: 385px;
+height: 200px;
+transition: all 3s;
+}
+
+.courtney:hover{
+    cursor: pointer;
+    transform: scale(120%);
+}
+
+.courtneys{
+align-items:center;
+display: flex;
+gap: 15px;
+
+}
+
+.courtneys p{
+display: block;
+}
